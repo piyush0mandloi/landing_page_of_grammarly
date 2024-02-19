@@ -1,0 +1,64 @@
+.box2{
+    background-color: rgb(66, 224, 66);
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+}
+.box1{
+    background-color: rgba(243, 243, 23, 0.839);
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+}
+#lastimg{
+    transform: rotate(140deg);
+    height: 500px;
+    width: 250px;
+    margin-left: 200px;
+    /* background-color: black; */
+    /* margin-left: 100px; */
+
+}
+
+#firstimg{
+    height: 350px;
+    width: 350px;
+    background-color: aqua;
+    padding: 15px;
+}
+img{
+    height: 200px;
+    width: 250px;
+}
+
+.button3{
+    background-color: green;
+    color: white;
+    height: 25px;
+    width: 55px;
+    outline: none;
+}
+.image-containe{
+    position: relative;
+}
+.image{
+    position: absolute;
+}
+/* first img */
+.image:nth-child(1){
+    top: 200px;
+    left: 400px;
+    z-index: 3;
+}
+/*  last img*/
+.image:nth-child(2){
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+/* second img */
+.image:nth-child(3){
+    top: 250px;
+    left: 40px;
+    z-index: 2;
+}
